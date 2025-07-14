@@ -1,0 +1,83 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unavailable</title>
+    <style>
+        body {
+            font-family: 'Comic Sans MS', cursive, sans-serif;
+            background: linear-gradient(to right, #f3a8fc, #f7b0e9, #ffb6b9);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            text-align: center;
+        }
+        h1 {
+            color: #ff3b3f;
+            font-size: 4em;
+            font-weight: bold;
+            text-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
+            margin-bottom: 20px;
+        }
+        p {
+            color: #4b4e6b;
+            font-size: 1.5em;
+            margin-bottom: 20px;
+            line-height: 1.6;
+        }
+        .container {
+            background-color: #fff;
+            padding: 50px;
+            border-radius: 15px;
+            box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            max-width: 600px;
+            width: 90%;
+            border: 5px solid #ff7eaa;
+        }
+        .btn {
+            background-color: #ff79c6;
+            color: white;
+            border: none;
+            padding: 15px 30px;
+            font-size: 1.5em;
+            border-radius: 50px;
+            cursor: pointer;
+            text-decoration: none;
+            box-shadow: 0 5px 15px rgba(255, 0, 96, 0.4);
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+        .btn:hover {
+            background-color: #ff69b4;
+            box-shadow: 0 10px 20px rgba(255, 0, 96, 0.6);
+            transform: scale(1.05);
+        }
+        .btn:active {
+            transform: scale(0.95);
+        }
+        .fun-text {
+            color: #7a44e4;
+            font-size: 1.3em;
+            font-style: italic;
+        }
+    </style>
+    <script>
+        // Redirect to the homepage after 5 seconds
+        setTimeout(function() {
+            window.location.href = "index.html"; // change to your homepage URL
+        }, 10000);
+    </script>
+</head>
+<body>
+    <div class="container">
+        <h1>Oops! Unavailable at the Moment</h1>
+        <p>We're sorry, but the content you're looking for is temporarily unavailable. Hang tight and check back soon!</p>
+        <p class="fun-text">Meanwhile, you can explore other exciting sections of our website!</p>
+        <p>If you'd like, you can return to the homepage:</p>
+        <a href="index.html" class="btn">Back to Home</a>
+    </div>
+</body>
+</html>
