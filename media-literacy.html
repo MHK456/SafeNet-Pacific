@@ -1,83 +1,137 @@
 <!DOCTYPE HTML>
-<html lang="en">
+<html>
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Unavailable</title>
-    <style>
-        body {
-            font-family: 'Comic Sans MS', cursive, sans-serif;
-            background: linear-gradient(to right, #f3a8fc, #f7b0e9, #ffb6b9);
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            margin: 0;
-            text-align: center;
-        }
-        h1 {
-            color: #ff3b3f;
-            font-size: 4em;
-            font-weight: bold;
-            text-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
-            margin-bottom: 20px;
-        }
-        p {
-            color: #4b4e6b;
-            font-size: 1.5em;
-            margin-bottom: 20px;
-            line-height: 1.6;
-        }
-        .container {
-            background-color: #fff;
-            padding: 50px;
-            border-radius: 15px;
-            box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
-            text-align: center;
-            max-width: 600px;
-            width: 90%;
-            border: 5px solid #ff7eaa;
-        }
-        .btn {
-            background-color: #ff79c6;
-            color: white;
-            border: none;
-            padding: 15px 30px;
-            font-size: 1.5em;
-            border-radius: 50px;
-            cursor: pointer;
-            text-decoration: none;
-            box-shadow: 0 5px 15px rgba(255, 0, 96, 0.4);
-            transition: transform 0.2s, box-shadow 0.2s;
-        }
-        .btn:hover {
-            background-color: #ff69b4;
-            box-shadow: 0 10px 20px rgba(255, 0, 96, 0.6);
-            transform: scale(1.05);
-        }
-        .btn:active {
-            transform: scale(0.95);
-        }
-        .fun-text {
-            color: #7a44e4;
-            font-size: 1.3em;
-            font-style: italic;
-        }
-    </style>
-    <script>
-        // Redirect to the homepage after 5 seconds
-        setTimeout(function() {
-            window.location.href = "index.html"; // change to your homepage URL
-        }, 10000);
-    </script>
+	<title>Media Literacy Toolkit | SafeNet Pacific</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<link rel="stylesheet" href="assets/css/main.css" />
+	<noscript>
+		<link rel="stylesheet" href="assets/css/noscript.css" />
+	</noscript>
+	<style>
+		.section {
+			margin-bottom: 3rem;
+		}
+
+		.video {
+			margin: 1rem 0;
+		}
+	</style>
 </head>
-<body>
-    <div class="container">
-        <h1>Oops! Unavailable at the Moment</h1>
-        <p>We're sorry, but the content you're looking for is temporarily unavailable. Hang tight and check back soon!</p>
-        <p class="fun-text">Meanwhile, you can explore other exciting sections of our website!</p>
-        <p>If you'd like, you can return to the homepage:</p>
-        <a href="index.html" class="btn">Back to Home</a>
-    </div>
+
+<body class="is-preload">
+	<div id="wrapper">
+
+		<!-- Header -->
+		<header id="header">
+			<a href="index.html" class="logo"><strong>SafeNet Pacific</strong> <span>by Team Ladybug</span></a>
+			<nav>
+				<a href="#menu">Menu</a>
+			</nav>
+		</header>
+
+		<!-- Menu -->
+		<nav id="menu">
+			<ul class="links">
+				<li><a href="index.html">Home</a></li>
+				<li><a href="about.html">What is TFGBV?</a></li>
+				<li><a href="solutions.html">Solutions</a></li>
+				<li><a href="contact.html">Contact</a></li>
+			</ul>
+			<ul class="actions stacked">
+				<li><a href="#" class="button primary fit">Join the Cause</a></li>
+				<li><a href="#" class="button fit">Log In</a></li>
+			</ul>
+		</nav>
+
+		<!-- Main -->
+		<div id="main" class="alt">
+			<section id="one">
+				<div class="inner">
+					<header class="major">
+						<h1>Media Literacy Toolkit</h1>
+					</header>
+
+					<div class="section">
+						<h2>What is Media Literacy?</h2>
+						<p>Media literacy is the ability to access, analyse, evaluate, create, and act using all forms
+							of communication. It helps people become critical thinkers, effective communicators, and
+							active digital citizens. In the age of social media, understanding how to question what we
+							see, hear, and read online is more important than ever.</p>
+						<div class="video">
+							<iframe width="100%" height="500"
+								src="https://www.youtube.com/embed/x6H8jpbcI0U?si=ckwHVhtOga_Bsk5f"
+								title="Media Literacy Overview" frameborder="0" allowfullscreen></iframe>
+						</div>
+					</div>
+
+					<!-- Conviction Bias -->
+					<div class="section">
+						<h2>Conviction Bias</h2>
+						<p>Conviction bias is when we believe something more strongly simply because we feel strongly
+							about it—even when we lack real evidence. The louder or more passionate we feel, the more
+							convinced we are that we're right.</p>
+						<div class="video">
+							<iframe width="100%" height="500"
+								src="https://www.youtube.com/embed/J2d0SZ_pBX8?si=9NP8ivR_5dK1dQDr"
+								title="Conviction Bias" frameborder="0" allowfullscreen></iframe>
+						</div>
+					</div>
+
+					<!-- Confirmation Bias -->
+					<div class="section">
+						<h2>Confirmation Bias</h2>
+						<p>Confirmation bias is when we only pay attention to information that supports what we already
+							believe, and ignore or reject anything that contradicts it. This creates an echo chamber
+							where our beliefs are constantly reinforced.</p>
+						<div class="video">
+							<iframe width="100%" height="500"
+								src="https://www.youtube.com/embed/Kho5KvPBDSw?si=GvTLHbXe4JsCsuD0"
+								title="Confirmation Bias" frameborder="0" allowfullscreen></iframe>
+						</div>
+					</div>
+
+					<!-- Group Bias -->
+					<div class="section">
+						<h2>Group Bias</h2>
+						<p>Group bias (or in-group bias) is when we favour information, opinions, or people who belong
+							to the same group as us—whether it's our culture, gender, nationality, or friend
+							circle—while dismissing others.</p>
+						<div class="video">
+							<iframe width="100%" height="500"
+								src="https://www.youtube.com/embed/fZMKhZE5SeM?si=qZe_WyIBOLrDww1S" title="Group Bias"
+								frameborder="0" allowfullscreen></iframe>
+						</div>
+					</div>
+
+				</div>
+			</section>
+		</div>
+
+		<!-- Footer -->
+		<footer id="footer">
+			<div class="inner">
+				<ul class="icons">
+					<li><a href="#" class="icon brands alt fa-facebook-f"><span class="label">Facebook</span></a></li>
+					<li><a href="#" class="icon brands alt fa-instagram"><span class="label">Instagram</span></a></li>
+				</ul>
+				<ul class="copyright">
+					<li>&copy; SafeNet Pacific</li>
+					<li>Design: <a href="https://html5up.net">HTML5 UP</a></li>
+				</ul>
+			</div>
+		</footer>
+	</div>
+
+	<!-- Scripts -->
+	<script src="assets/js/jquery.min.js"></script>
+	<script src="assets/js/jquery.scrolly.min.js"></script>
+	<script src="assets/js/jquery.scrollex.min.js"></script>
+	<script src="assets/js/browser.min.js"></script>
+	<script src="assets/js/breakpoints.min.js"></script>
+	<script src="assets/js/util.js"></script>
+	<script src="assets/js/main.js"></script>
 </body>
+
 </html>
